@@ -24,8 +24,8 @@ using relational SQL queries.
   - simple subquery-based comparisons  
 
 - `database/`  
-  - `smallnorthwind.sql` — database schema and sample data  
-  - `erd.png` — entity relationship diagram (ERD)  
+  - `SQL-SmallNorthWind.sql` — database schema and sample data  
+  - `ERD-SmallNorthWind.png` — entity relationship diagram (ERD)  
 
 ---
 
