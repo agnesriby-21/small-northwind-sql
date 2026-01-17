@@ -1,44 +1,86 @@
 # Small Northwind SQL Analysis
 
-This repository contains a collection of SQL queries built on the **Small Northwind** dataset.
-The project focuses on basic **sales analysis**, **customer behavior**, and **product performance**
-using relational SQL queries.
+Sebuah project **analisis data menggunakan SQL** yang dibangun berdasarkan dataset **Small Northwind**.  
+Project ini berfokus pada **analisis penjualan**, **perilaku pelanggan**, dan **performa produk** dengan memanfaatkan query SQL relasional.
+
+Dataset Small Northwind merepresentasikan skenario bisnis sederhana yang umum digunakan untuk latihan **relational database analysis**.
 
 ---
 
 ## Project Objectives
-- Analyze sales performance across products and categories  
-- Identify top customers and revenue distribution  
-- Explore order trends over time  
-- Practice SQL joins, aggregations, and simple subqueries  
+- Menganalisis performa penjualan berdasarkan produk dan kategori
+- Mengidentifikasi pelanggan dengan kontribusi revenue tertinggi
+- Menganalisis distribusi revenue berdasarkan negara
+- Mengamati tren order dan penjualan dari waktu ke waktu
+- Melatih penggunaan **SQL joins**, **aggregation**, dan **subqueries**
+
+---
+
+## Analysis Scope
+
+Analisis yang dilakukan dalam project ini mencakup:
+- Sales by category dan product
+- Top customers dan countries berdasarkan revenue
+- Order trends dan average order value
+- Perbandingan data menggunakan **subquery** terhadap nilai rata-rata keseluruhan
 
 ---
 
 ## Repository Structure
 
-- `queries/`  
-  Contains SQL files used for analysis, including:
-  - sales by category and product  
-  - top customers and countries by revenue  
-  - order trends and average order value  
-  - simple subquery-based comparisons  
+### `/queries`
+Berisi seluruh file query SQL yang digunakan dalam analisis, antara lain:
+- Analisis penjualan berdasarkan kategori dan produk
+- Pelanggan dengan kontribusi revenue tertinggi
+- Distribusi revenue berdasarkan negara
+- Tren order dan average order value
+- Query perbandingan menggunakan subquery
 
-- `database/`  
-  - `SQL-SmallNorthWind.sql` — database schema and sample data  
-  - `ERD-SmallNorthWind.png` — entity relationship diagram (ERD)  
+---
+
+### `/database`
+Berisi file yang berkaitan dengan database:
+- `SQL-SmallNorthWind.sql`  
+  Struktur database dan sample data
+- `ERD-SmallNorthWind.png`  
+  Diagram **Entity Relationship Diagram (ERD)**
 
 ---
 
 ## Analysis Highlights
-- Sales are concentrated in specific product categories  
-- A small group of customers contributes significantly to total revenue  
-- Order and sales trends can be observed across different years  
-- Subqueries are used to compare values against overall averages  
+- Penjualan terkonsentrasi pada beberapa kategori produk tertentu
+- Sebagian kecil pelanggan memberikan kontribusi besar terhadap total revenue
+- Pola tren order dan penjualan dapat diamati pada periode waktu tertentu
+- **Subqueries** digunakan untuk membandingkan nilai individual terhadap rata-rata keseluruhan
 
 ---
 
-## Tools
-- SQL  
-- Relational Database (Small Northwind)
+## Tools & Technologies
+
+| Layer | Teknologi |
+|------|----------|
+| Query Language | SQL |
+| Database Model | Relational Database |
+| Dataset | Small Northwind |
+| Analysis Type | Sales & Customer Analysis |
 
 ---
+
+## Skills Demonstrated
+- SQL Query Writing
+- Relational Database Analysis
+- JOIN (INNER, LEFT)
+- Aggregation (SUM, COUNT, AVG)
+- Subquery Implementation
+- Business-Oriented Data Analysis
+
+---
+
+## Author
+**Agnesha Riby Tjoanda**  
+Informatics Engineering — Universitas Surabaya
+
+---
+
+## License
+Project ini dibuat untuk **tujuan pembelajaran dan portofolio**.
